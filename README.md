@@ -11,3 +11,6 @@ import asyncio
 loop = asyncio.get_event_loop()
 vk = vkbee.VkApi('token', loop=loop)
 ```
+
+## BotsLongPoll
+# Oh wait plz!
