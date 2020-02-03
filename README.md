@@ -8,4 +8,5 @@ await vkbee.VkApi.call(vk,'status.get',{'status':'VKBee is fastest!','group_id':
 ```python
 import asyncio
 loop = asyncio.get_event_loop()
-vk = vkbee.VkApi('token', loop=loop)```
+vk = vkbee.VkApi('token', loop=loop)
+```
