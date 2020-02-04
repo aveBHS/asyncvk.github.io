@@ -2,7 +2,7 @@
 ### Документация
 ## Вызов запросов к ВКидерасте
 ```python
-await vkbee.VkApi.call(vk,'status.set',{'status':'VKBee is fastest!','group_id':1}
+await vkbee.VkApi.call(vk,'status.set',{'status':'VKBee is fastest!','group_id':1})
 ```
 ## Параметры
 
