@@ -1,9 +1,14 @@
 ![vkbee](https://github.com/asyncvk/vkbee/blob/master/vkbee/bgtio.png?raw=true)
-### Documentation
-## Function API caller
+### Документация
+## Вызов запросов к ВКидерасте
 ```python
 await vkbee.VkApi.call(vk,'status.get',{'status':'VKBee is fastest!','group_id':1}
 ```
+## Параметры
+
+| Параметр | Описание |
+| -------- | ---------|
+| 1 | Ваш авторизованный аккаунт в модуле      |
 ## Connectivity
 
 ```python
