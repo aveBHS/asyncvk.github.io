@@ -2,13 +2,15 @@
 ### Документация
 ## Вызов запросов к ВКидерасте
 ```python
-await vkbee.VkApi.call(vk,'status.get',{'status':'VKBee is fastest!','group_id':1}
+await vkbee.VkApi.call(vk,'status.set',{'status':'VKBee is fastest!','group_id':1}
 ```
 ## Параметры
 
 | Параметр | Описание |
 | -------- | ---------|
-| 1 | Ваш авторизованный аккаунт в модуле      |
+| vk | Ваш авторизованный аккаунт в модуле      |
+| status.set | Метод ВКонтакте      |
+| {'status':'VKBee is fastest!','group_id':1} | Json объект параметров      |
 ## Connectivity
 
 ```python
