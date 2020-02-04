@@ -31,6 +31,7 @@ vk = vkbee.VkApi('token', loop=loop)
 ```python
 print((a['execute_errors'][0])
 ```
+
 | Параметр | Описание |
 | -------- | ---------|
 | a | Сам запрос      |
