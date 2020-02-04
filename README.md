@@ -11,6 +11,7 @@ await vkbee.VkApi.call(vk,'status.set',{'status':'VKBee is fastest!','group_id':
 | vk | Ваш авторизованный аккаунт в модуле      |
 | status.set | Метод ВКонтакте      |
 | {'status':'VKBee is fastest!','group_id':1} | Json объект параметров      |
+
 ## Connectivity
 
 ```python
